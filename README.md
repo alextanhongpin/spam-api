@@ -6,6 +6,15 @@ Microservices API for spam filtering system.
 
 One of the goals of this repository is design an approach to design machine learning systems.
 
+## To run 
+
+```bash
+$ python -m main
+
+# Note that this will not work since the import will be messed up
+$ python main.py
+```
+
 ## Flows
 
 - Prepare text data

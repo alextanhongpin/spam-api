@@ -1,0 +1,9 @@
+version: '3'
+services:
+  server:
+    image: alextanhongpin/python:latest
+    ports:
+      - 5000
+    volumes:
+      - ../models:/code/models
+    
