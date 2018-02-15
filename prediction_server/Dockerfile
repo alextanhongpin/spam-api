@@ -7,9 +7,9 @@ WORKDIR /code/
 ADD . .
 
 RUN pip install -r requirements.txt
-RUN pip install nltk
 # Download nltk, but this will be very large
-# RUN python -m nltk.downloader all
+# RUN pip install -U nltk
+# RUN python -m nltk.downloader -q all
 
 EXPOSE 5000
 
