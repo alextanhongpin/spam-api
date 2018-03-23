@@ -1,9 +1,9 @@
 version: '3'
 services:
   server:
-    image: alextanhongpin/python:latest
+    image: alextanhongpin/python-spam:latest
     ports:
-      - 5000
+      - 5000:5000
     volumes:
       - ../models:/code/models
     
